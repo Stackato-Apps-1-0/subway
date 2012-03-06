@@ -1,0 +1,16 @@
+name: subway
+
+framework:
+
+  type: node
+
+mem: 256M
+
+hooks:
+  pre-running:
+    - export PORT=$VCAP_APP_PORT
+
+processes:
+  web: ./subway
+
+
