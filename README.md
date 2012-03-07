@@ -43,11 +43,11 @@ Installation
 
 Deployment
 -----------
-### Nodejitsu
-To deploy to Nodejitsu, update the `name` and `subdomain` values in `package.json` to the appropriate values for your app. Then:
+### Stackato
 
-    $ jitsu env set PORT 80
-    $ jitsu deploy
+Simply run:
+
+    $ stackato push -n
 
 
 Development
